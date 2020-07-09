@@ -41,8 +41,6 @@ function makeSelection(selection) {
 
     if(youWin) incrementScore(yourScoreSpan)
     if(youLose) incrementScore(computerScoreSpan)
-
-    
 }
 
 function incrementScore(scoreSpan) {
@@ -70,9 +68,7 @@ function addSelectionResult(selection, winner) {
         x=x+1
         finalColumn.nextSibling.replaceWith(div)
     }
-    
-    console.log(finalColumn.parentNode, x)
-    
+
 }
 
 function isWinner(selection, opponentSelection) {
